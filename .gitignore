@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/jira-clone/node_modules
+/jira-clone/.pnp
+/jira-clone/.pnp.js
+/jira-clone/.yarn/install-state.gz
+
+# testing
+/jira-clone/coverage
+
+# next.js
+/jira-clone/.next/
+/jira-clone/out/
+
+# production
+/jira-clone/build
+
+# misc
+/jira-clone/.DS_Store
+/jira-clone/*.pem
+
+# debug
+/jira-clone/npm-debug.log*
+/jira-clone/yarn-debug.log*
+/jira-clone/yarn-error.log*
+
+# local env files
+/jira-clone/.env*.local
+
+# vercel
+/jira-clone/.vercel
+
+# typescript
+/jira-clone/*.tsbuildinfo
+/jira-clone/next-env.d.ts
