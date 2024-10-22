@@ -8,7 +8,7 @@
 
 # testing
 /jira-clone/coverage
-
+/jira-clone/.env.local
 # next.js
 /jira-clone/.next/
 /jira-clone/out/
