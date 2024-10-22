@@ -101,7 +101,7 @@ const SignUpCard = () => {
                         />
 
                         <Button disabled={false} size={'lg'} className="w-full">
-                            Login
+                            Sign In
                         </Button>
                     </form>
                 </Form>
@@ -118,6 +118,15 @@ const SignUpCard = () => {
                     <FaGithub className="mr-2 size-5" />
                     Login with Github
                 </Button>
+            </CardContent>
+            <div className="px-7">
+                <DottedSeparator />
+            </div>
+            <CardContent className="p-7 flex items-center justify-center">
+                <p>Already have an account?</p>
+                <Link className="text-blue-700" href={'/sign-in'}>
+                    &nbsp;Sign In
+                </Link>
             </CardContent>
         </Card>
     );
